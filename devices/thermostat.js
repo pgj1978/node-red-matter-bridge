@@ -40,8 +40,8 @@ module.exports = {
         child.heat ? params.absMaxHeatSetpointLimit = 3500 : null
         child.cool ? params.minCoolSetpointLimit = 0 : null
         child.cool ? params.absMinCoolSetpointLimit = 0 : null
-        child.cool ? params.maxCoolSetpointLimit = 2100 : null
-        child.cool ? params.absMaxCoolSetpointLimit = 2100 : null
+        child.cool ? params.maxCoolSetpointLimit = 2800 : null
+        child.cool ? params.absMaxCoolSetpointLimit = 2800 : null
         if (params.systemMode == 4){
             params.occupiedHeatingSetpoint = child.values.occupiedHeatingSetpoint
         } else if (params.systemMode == 3){
